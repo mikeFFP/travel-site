@@ -1,11 +1,3 @@
-function person(name, favColor) {
-  console.log("Hello, my name is " + name + " and my favourite color is " + favColor + ".");
-}
+import MobileMenu from './modules/MobileMenu';
 
-var john = {
-  name: "John Doe",
-  favoriteColor: "blue"
-}
-
-person(john.name, john.favoriteColor);
-person("Jane Smith", "green");
+var mobileMenu = new MobileMenu();
